@@ -1,0 +1,15 @@
+C:\Users\satha\OneDrive\Documents\Oops\bin\Debug\net7.0\Oops.exe
+C:\Users\satha\OneDrive\Documents\Oops\bin\Debug\net7.0\Oops.deps.json
+C:\Users\satha\OneDrive\Documents\Oops\bin\Debug\net7.0\Oops.runtimeconfig.json
+C:\Users\satha\OneDrive\Documents\Oops\bin\Debug\net7.0\Oops.dll
+C:\Users\satha\OneDrive\Documents\Oops\bin\Debug\net7.0\Oops.pdb
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.csproj.AssemblyReference.cache
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.AssemblyInfoInputs.cache
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.AssemblyInfo.cs
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.csproj.CoreCompileInputs.cache
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.dll
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\refint\Oops.dll
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.pdb
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\Oops.genruntimeconfig.cache
+C:\Users\satha\OneDrive\Documents\Oops\obj\Debug\net7.0\ref\Oops.dll

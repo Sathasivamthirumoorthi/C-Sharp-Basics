@@ -9,6 +9,7 @@ namespace MyProblem{
 
     abstract class Animals{
 
+        string name = "USA";
         public abstract void AnimalSound();
         public void eat(){
             Console.WriteLine("I will eat");
@@ -18,13 +19,14 @@ namespace MyProblem{
 
 
     class Dog : Animals{
+        
         public override void AnimalSound(){
             Console.WriteLine("bark");
         }
     }
 
 
-    class Cat : Animals{
+    class Cat : Animals{ 
         public override void AnimalSound()
         {
             Console.WriteLine("meow");

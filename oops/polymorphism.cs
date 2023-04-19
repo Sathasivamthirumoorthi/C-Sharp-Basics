@@ -28,14 +28,14 @@ namespace MyProblem{
 
 
     class TestShape{
-        public static void Main(String[] args){
-            Shape circle = new Circle();
-            Shape triangle = new Triangle();
-            Shape shape = new Shape();
-            shape.area();
-            circle.area();
-            triangle.area();
-        }
+        // public static void Main(String[] args){
+        //     Shape circle = new Circle();
+        //     Shape triangle = new Triangle();
+        //     Shape shape = new Shape();
+        //     shape.area();
+        //     circle.area();
+        //     triangle.area();
+        // }
     }
 
 

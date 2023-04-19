@@ -157,16 +157,16 @@ namespace Arrays{
 
 
 
-        public static void Main(string[] args){
-            int[] arr1 = {1,2,3,4,5,6,6,1,2,1};
-            int[] arr2 = {1,2,3,4,5,6,6,1,2,1};
+        // public static void Main(string[] args){
+        //     int[] arr1 = {1,2,3,4,5,6,6,1,2,1};
+        //     int[] arr2 = {1,2,3,4,5,6,6,1,2,1};
 
-            // reverseArray(arr);
-            // unique(arr);
-            // oddEven(arr1);
-            var s = "Siva";
-            Console.Write(s);
-        }
+        //     // reverseArray(arr);
+        //     // unique(arr);
+        //     // oddEven(arr1);
+        //     var s = "Siva";
+        //     Console.Write(s);
+        // }
 
     }
 }

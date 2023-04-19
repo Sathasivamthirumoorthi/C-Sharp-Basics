@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\satha\\OneDrive\\Documents\\Oops\\Oops.csproj": {}
+    "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\Oops.csproj": {}
   },
   "projects": {
-    "C:\\Users\\satha\\OneDrive\\Documents\\Oops\\Oops.csproj": {
+    "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\Oops.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\satha\\OneDrive\\Documents\\Oops\\Oops.csproj",
+        "projectUniqueName": "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\Oops.csproj",
         "projectName": "Oops",
-        "projectPath": "C:\\Users\\satha\\OneDrive\\Documents\\Oops\\Oops.csproj",
+        "projectPath": "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\Oops.csproj",
         "packagesPath": "C:\\Users\\satha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\satha\\OneDrive\\Documents\\Oops\\obj\\",
+        "outputPath": "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\satha\\AppData\\Roaming\\NuGet\\NuGet.Config"

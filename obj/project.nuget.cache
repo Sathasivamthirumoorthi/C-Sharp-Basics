@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mdRFrbdHVc70ZkDRZOmrAKzkl1Z9OECqRFwf+/KF+6ee1bxECpWgOJJRnes2BG31mxc5MKOdwY35cOXCBs8mWw==",
+  "dgSpecHash": "XTnUc9IHngLns1oB8NHDK+dprOEtuiz7319lnZ5rOwJs41Rc2m/IgtDy6L7xie+q7CSqPs2n/n56xBKNrVNI0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\satha\\OneDrive\\Documents\\Kova.co\\Oops.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\satha\\Documents\\C-Sharp-Basics\\Oops.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\satha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

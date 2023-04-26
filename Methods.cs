@@ -4,6 +4,8 @@ using System.Text;
 using Newtonsoft.Json;
 using System.Text.Json;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
 
 
 namespace Methods{
@@ -233,7 +235,10 @@ namespace Methods{
 
     }
 
-    
+    public record class Repository(
+    [property: JsonPropertyName("name")] string name,
+        [property: JsonPropertyName("description")] string Description
+    );
 
 
     class TestMethods{

@@ -50,10 +50,10 @@ namespace MyProblem{
 
 
     class TestInterface{
-        public static void Main(string[] args){
-            IEmployee emp = new Employer();
-            emp.company();
-        }
+        // public static void Main(string[] args){
+        //     IEmployee emp = new Employer();
+        //     emp.company();
+        // }
     }
 
 }

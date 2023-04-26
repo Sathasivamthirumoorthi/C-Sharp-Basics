@@ -1,6 +1,6 @@
 using System;
 
-namespace MyProblem{
+namespace MyProblem2{
 
     abstract class Animals{
         public abstract void cat();

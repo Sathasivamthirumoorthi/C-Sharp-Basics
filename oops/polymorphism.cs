@@ -1,6 +1,6 @@
 using System;
 
-namespace MyProblem{
+namespace MyProblem1{
     class Shape{
         
         public virtual void area(){

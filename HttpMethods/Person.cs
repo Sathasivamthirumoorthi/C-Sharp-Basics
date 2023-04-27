@@ -1,10 +1,10 @@
-// Define the Person class
-public class Person {
+// Define the Post class
+public class Post {
     public string FirstName { get; set; }
     public string LastName { get; set; }
     
     // Constructor
-    public Person(string firstName, string lastName) {
+    public Post(string firstName, string lastName) {
         FirstName = firstName;
         LastName = lastName;
     }

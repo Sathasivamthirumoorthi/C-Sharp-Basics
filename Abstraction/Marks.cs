@@ -55,7 +55,6 @@ namespace MyProblem{
     //         StudentB Ari = new StudentB(99,99,99,99);
     //         Console.WriteLine(" Percentage {0} ",Ari.getPercentage());
     //     }
-
     // }
 
 }

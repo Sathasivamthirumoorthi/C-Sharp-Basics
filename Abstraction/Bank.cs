@@ -10,7 +10,6 @@ namespace MyProblem
     abstract class Bank{
         public abstract int getBalance();
     }
-
     class BankA : Bank{
 
         private int deposited;

@@ -21,7 +21,7 @@ namespace MyInterface{
             switch (customerType)
             {
                 case 1:
-                    Customer individualCustomer = new IndividualCustomer("John Doe"); // example customer object
+                    Customer sathasivam = new IndividualCustomer("sathasivam"); // example customer object
 
 
                     Console.WriteLine("Select type of account");
@@ -37,22 +37,22 @@ namespace MyInterface{
                     switch (accountType)
                     {
                         case 1:
-                            LoanAccount loanAccount = new LoanAccount(individualCustomer, 1000); // example account object
-                            interest = loanAccount.calculate_interest(6); // example interest calculation
+                            LoanAccount individualLoanAccount = new LoanAccount(sathasivam, 1000); // example account object
+                            interest = individualLoanAccount.calculate_interest(6); // example interest calculation
                             Console.WriteLine("Interest for loan account is: " + interest);
                             break;
 
                         case 2:
-                            DepositAccount depositAccount = new DepositAccount(individualCustomer, 500); // example account object
-                            depositAccount.deposit(100); // example deposit action
-                            depositAccount.withdraw(50); // example withdrawal 
-                            interest = depositAccount.calculate_interest(6); // example interest calculation
+                            DepositAccount individualDepositAccount = new DepositAccount(sathasivam, 500); // example account object
+                            individualDepositAccount.deposit(100); // example deposit action
+                            individualDepositAccount.withdraw(50); // example withdrawal 
+                            interest = individualDepositAccount.calculate_interest(6); // example interest calculation
                             Console.WriteLine("Interest for deposit account is: " + interest);
                             break;
 
                         case 3:
-                            MortageAccount mortageAccount = new MortageAccount(individualCustomer, 100000); // example account object
-                            interest = mortageAccount.calculate_interest(12); // example interest calculation
+                            MortageAccount individualMortageAccount = new MortageAccount(sathasivam, 100000); // example account object
+                            interest = individualMortageAccount.calculate_interest(12); // example interest calculation
                             Console.WriteLine("Interest for mortage account is: " + interest);
                             break;
 
@@ -60,51 +60,52 @@ namespace MyInterface{
                             Console.WriteLine("Invalid account type");
                             break;
                     }
-        break;
+                    
+                    break;
 
-            case 2:
-                CompanyCustomer companyCustomer = new CompanyCustomer("Google");
-                Console.WriteLine("Select type of account");
-                Console.WriteLine();
-                Console.WriteLine("1 Loan Account");
-                Console.WriteLine("2 Deposit Account");
-                Console.WriteLine("3 Mortage Account");
+                case 2:
+                    CompanyCustomer google = new CompanyCustomer("Google");
+                    Console.WriteLine("Select type of account");
+                    Console.WriteLine();
+                    Console.WriteLine("1 Loan Account");
+                    Console.WriteLine("2 Deposit Account");
+                    Console.WriteLine("3 Mortage Account");
 
-                accountType = Convert.ToInt32(Console.ReadLine());
-                // Switch case for account type for company customer
-                switch (accountType)
-                    {
-                        case 1:
-                            LoanAccount loanAccount = new LoanAccount(companyCustomer, 1000); // example account object
-                            interest = loanAccount.calculate_interest(6); // example interest calculation
-                            Console.WriteLine("Interest for loan account is: " + interest);
-                            break;
+                    accountType = Convert.ToInt32(Console.ReadLine());
+                    // Switch case for account type for company customer
+                    switch (accountType)
+                        {
+                            case 1:
+                                LoanAccount companyLoanAccount = new LoanAccount(google, 1000); // example account object
+                                interest = companyLoanAccount.calculate_interest(6); // example interest calculation
+                                Console.WriteLine("Interest for loan account is: " + interest);
+                                break;
 
-                        case 2:
-                            DepositAccount depositAccount = new DepositAccount(companyCustomer, 500); // example account object
-                            depositAccount.deposit(100); // example deposit action
-                            depositAccount.withdraw(50); // example withdrawal 
-                            interest = depositAccount.calculate_interest(6); // example interest calculation
-                            Console.WriteLine("Interest for deposit account is: " + interest);
+                            case 2:
+                                DepositAccount companyDepositAccount = new DepositAccount(google, 500); // example account object
+                                companyDepositAccount.deposit(100); // example deposit action
+                                companyDepositAccount.withdraw(50); // example withdrawal 
+                                interest = companyDepositAccount.calculate_interest(6); // example interest calculation
+                                Console.WriteLine("Interest for deposit account is: " + interest);
 
-                            break;
+                                break;
 
-                        case 3:
-                            MortageAccount mortageAccount = new MortageAccount(companyCustomer, 100000); // example account object
-                            interest = mortageAccount.calculate_interest(12); // example interest calculation
-                            Console.WriteLine("Interest for mortage account is: " + interest);
-                            break;
+                            case 3:
+                                MortageAccount companyMortageAccount = new MortageAccount(google, 100000); // example account object
+                                interest = companyMortageAccount.calculate_interest(12); // example interest calculation
+                                Console.WriteLine("Interest for mortage account is: " + interest);
+                                break;
 
-                        default:
-                            Console.WriteLine("Invalid account type");
-                            break;
-                    }
-                break;
+                            default:
+                                Console.WriteLine("Invalid account type");
+                                break;
+                        }
+                    break;
 
-            default:
-                Console.WriteLine("Invalid customer type");
-                break;
-        }
+                default:
+                    Console.WriteLine("Invalid customer type");
+                    break;
+            }
 
         }
     }

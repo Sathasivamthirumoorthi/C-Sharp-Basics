@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .login{
+            display: grid;
+            gap: 20px;
+        }
+        #search{
+            width: fit-content;
+            float: right;
+        }
+        
+        .login-input{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        
+        #input1{
+            background-image:  url("man.png");
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: 24px;
+            padding: 20px 25px 20px 20px;
+    
+
+        }
+
+        #search{
+            background-image:  url("search.jpg");
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: 24px;
+            padding: 20px 25px 20px 20px;
+        
+
+        }
+
+        #input2{
+            background-image:  url("eye.jpg");
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: 24px;
+            padding: 20px 25px 20px 20px;
+        
+
+        }
+    </style>
+
+</head>
+<body>
+    <input type="search" id="search">
+    
+    <div class="main">
+
+        <div class="login">
+            <h3>User Login Page</h3>
+            <div class="login-input">
+            <h3>User Name</h3>
+            <input id="input1" type="text">
+            </div>
+            <div class="login-input">
+            <h3>Password</h3>
+            <input id="input2" type="password">
+            </div> 
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+
+</body>
+</html>

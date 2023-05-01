@@ -4,7 +4,7 @@ namespace MyInterface{
 
     class TestBank{
 
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             // Get the type of customer (individual or company)
 
@@ -21,7 +21,7 @@ namespace MyInterface{
             switch (customerType)
             {
                 case 1:
-                    Customer sathasivam = new IndividualCustomer("sathasivam"); // example customer object
+                    Customer sathasivam = new IndividualCustomer("sathasivam");
 
 
                     Console.WriteLine("Select type of account");
@@ -33,26 +33,26 @@ namespace MyInterface{
                     accountType = Convert.ToInt32(Console.ReadLine());
 
                     double interest;
-                    // Switch case for account type for individual customer
+
                     switch (accountType)
                     {
                         case 1:
-                            LoanAccount individualLoanAccount = new LoanAccount(sathasivam, 1000); // example account object
-                            interest = individualLoanAccount.calculate_interest(6); // example interest calculation
+                            LoanAccount individualLoanAccount = new LoanAccount(sathasivam, 1000);
+                            interest = individualLoanAccount.calculate_interest(6); 
                             Console.WriteLine("Interest for loan account is: " + interest);
                             break;
 
                         case 2:
-                            DepositAccount individualDepositAccount = new DepositAccount(sathasivam, 500); // example account object
-                            individualDepositAccount.deposit(100); // example deposit action
-                            individualDepositAccount.withdraw(50); // example withdrawal 
-                            interest = individualDepositAccount.calculate_interest(6); // example interest calculation
+                            DepositAccount individualDepositAccount = new DepositAccount(sathasivam, 500); 
+                            individualDepositAccount.deposit(100); 
+                            individualDepositAccount.withdraw(50); 
+                            interest = individualDepositAccount.calculate_interest(6); 
                             Console.WriteLine("Interest for deposit account is: " + interest);
                             break;
 
                         case 3:
-                            MortageAccount individualMortageAccount = new MortageAccount(sathasivam, 100000); // example account object
-                            interest = individualMortageAccount.calculate_interest(12); // example interest calculation
+                            MortageAccount individualMortageAccount = new MortageAccount(sathasivam, 100000); 
+                            interest = individualMortageAccount.calculate_interest(12);
                             Console.WriteLine("Interest for mortage account is: " + interest);
                             break;
 

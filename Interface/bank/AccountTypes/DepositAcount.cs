@@ -10,14 +10,14 @@ class DepositAccount : Account{
 
     // Define a method named withdraw which takes in a float amount and subtracts it from the account accountBalance.
     public void withdraw(float amount){
-        // Print a message to the console to indicate the amount being withdrawn.
+       // Print a message to the console to indicate the amount being withdrawn.
         Console.WriteLine("Amount to be widthdraw : {0}" , amount);
     
         // Subtract the withdrawal amount from the account accountBalance.
         accountBalance -= amount;
 
         // Print a message to the console to indicate the withdrawal has been made and the current accountBalance.
-        Console.WriteLine("{0} is widthdrawn from your bank account ",amount);
+         Console.WriteLine("{0} is widthdrawn from your bank account ",amount);
         Console.WriteLine("Your current accountBalance is {0}: ",accountBalance);   
     }
 

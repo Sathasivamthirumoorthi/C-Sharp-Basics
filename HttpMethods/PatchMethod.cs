@@ -15,7 +15,6 @@ namespace Methods{
         try{
 
 
-        // Create a new instance of the Post class
         var userPost = new Post("Satha Sivam", "thirumoorthi");
 
         // Serialize the Post object to a JSON string
